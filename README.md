@@ -12,9 +12,17 @@
 # 使用说明
 1. 创建conda虚拟环境
 ```shell
-$ conda env create -f sustechtis.yaml
+$ conda env create -n sustech-tis python==3.8
 ```
-2. 运行脚本
+2. 激活环境
+```shell
+$ conda activate sustech-tis
+```
+3. 安装requirements
+```shell
+$ pip install -r requirements.txt
+```
+4. 运行脚本
 ```shell
 $ python main.py  
 ```
